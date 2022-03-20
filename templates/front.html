@@ -1,0 +1,118 @@
+<html>
+<body>
+    <h3>VISA Status Prediction From</h3>
+    <div>
+        <form action = "/submit" method = "POST">
+            <label for = "EMPLOYER">EMPLOYER</label>
+            <select id = "EMPLOYER" name = "EMPLOYER">
+                <option value = "0">inc</option>
+                <option value = "1">llc</option>
+                <option value = "2">university</option>
+                <option value = "3">non-university</option>
+            </select>
+            <br>
+            <br>
+            <label for = "SOC_CODE">SOC_CODE</label>
+            <input type="text" id = "SOC_CODE" name = "SOC_CODE">
+            <br>
+            <br>
+            <label for = "NAICS_CODE">NAICS_CODE</label>
+            <input type = "number" id = "NAICS_CODE" name = "NAICS_CODE">
+            <br>
+            <br> 
+            <label for = "SOC_TITLE2">SOC_TITLE</label>
+            <select id = "SOC_TITLE2" name = "SOC_TITLE2">
+                <option value = "1">manager</option>
+                <option value = "2">pilot</option>
+                <option value = "3">analyst</option>
+                <option value = "4">computers</option>
+                <option value = "5">engineer</option>
+                <option value = "6">teachers</option>
+                <option value = "7">farm</option>
+                <option value = "8">scientist</option>
+                <option value = "9">architect</option>
+                <option value = "10">statisticians</option>
+                <option value = "11">lawyer</option>
+                <option value = "12">other</option>
+            </select>
+            <br>
+            <br>
+            <label for = "SECONDARY_ENTITY">SECONDARY_ENTITY</label>
+            <select id = "SECONDARY_ENTITY" name = "SECONDARY_ENTITY">
+                <option value = "0">No</option>
+                <option value = "1">Yes</option>
+            </select>
+            <br>
+            <br>
+            <label for = "AGENT_REPRESENTING_EMPLOYER">AGENT_REPRESENTING_EMPLOYER</label>
+            <select id = "AGENT_REPRESENTING_EMPLOYER" name = "AGENT_REPRESENTING_EMPLOYER">
+                <option value = "0">No</option>
+                <option value = "1">Yes</option>
+            </select>
+            <br>
+            <br>
+            <label for = "CONTINUED_EMPLOYMENT">CONTINUED_EMPLOYMENT</label>
+            <input type = "number" id = "CONTINUED_EMPLOYMENT" name = "CONTINUED_EMPLOYMENT">
+            <br>
+            <br>
+            <label for = "CHANGE_PREVIOUS_EMPLOYMENT">CHANGE_PREVIOUS_EMPLOYMENT</label>
+            <input type = "number" id = "CHANGE_PREVIOUS_EMPLOYMENT" name = "CHANGE_PREVIOUS_EMPLOYMENT">
+            <br>
+            <br>
+            <label for = "NEW_CONCURRENT_EMPLOYMENT">NEW_CONCURRENT_EMPLOYMENT</label>
+            <input type = "number" id = "NEW_CONCURRENT_EMPLOYMENT" name = "NEW_CONCURRENT_EMPLOYMENT">
+            <br>
+            <br>
+            <label for = "CHANGE_EMPLOYER">CHANGE_EMPLOYER</label>
+            <input type = "number" id = "CHANGE_EMPLOYER" name = "CHANGE_EMPLOYER">
+            <br>
+            <br>
+            <label for = "AMENDED_PETITION">AMENDED_PETITION</label>
+            <input type = "Number" id = "AMENDED_PETITION" name = "AMENDED_PETITION">
+            <br>
+            <br>
+            <label for = "H-1B_DEPENDENT">H-1B_DEPENDENT</label>
+            <select id = "H-1B_DEPENDENT" name = "H-1B_DEPENDENT">
+                <option value = "0">No</option>
+                <option value = "1">Yes</option>
+            </select>
+            <br>
+            <br>
+            <label for = "SUPPORT_H1B">SUPPORT_H1B</label>
+            <select id = "SUPPORT_H1B" name = "SUPPORT_H1B">
+                <option value = "0">No</option>
+                <option value = "1">Yes</option>
+            </select>
+            <br>
+            <br>
+            <label for = "WILLFUL_VIOLATOR">WILLFUL_VIOLATOR</label>
+            <select id = "WILLFUL_VIOLATOR" name = "WILLFUL_VIOLATOR">
+                <option value = "0">No</option>
+                <option value = "1">Yes</option>
+            </select>
+            <br>
+            <br>
+            <label for = "WAGE_RATE_OF_PAY_FROM_1">WAGE_RATE_OF_PAY_FROM_1</label>
+            <input type="number" id = "WAGE_RATE_OF_PAY_FROM_1" name = "WAGE_RATE_OF_PAY_FROM_1">
+            <br>
+            <br>
+            <label for = "WAGE_UNIT_OF_PAY_1">WAGE_UNIT_OF_PAY_1</label>
+            <input type="number" id = "WAGE_UNIT_OF_PAY_1" name = "WAGE_UNIT_OF_PAY_1">
+            <br>
+            <br>
+            <label for = "TOTAL_WORKER_POSITIONS">TOTAL_WORKER_POSITIONS</label>
+            <input type="number" id = "TOTAL_WORKER_POSITIONS" name = "TOTAL_WORKER_POSITIONS">
+            <br>
+            <br>
+            <label for = "FULL_TIME_POSITION">FULL_TIME_POSITION</label>
+            <select id = "FULL_TIME_POSITION" name = "FULL_TIME_POSITION">
+                <option value = "0">No</option>
+                <option value = "1">Yes</option>
+            </select>
+            <br>
+            <br>
+            <button name="forwardBtn" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
